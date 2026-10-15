@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0f172a">
-    <meta name="description" content="Catálogo de destinos turísticos: Bolivia, Chile, Costa Rica, Ecuador, México y Nicaragua. Explora playas, salares, selvas y culturas ancestrales.">
+    <meta name="description" content="Catálogo de destinos turísticos: Bolivia, Chile, Costa Rica, Ecuador, México, Perú y Nicaragua. Explora playas, salares, selvas, montañas y culturas ancestrales.">
     <title>Destinos Turísticos | Catálogo de viajes</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -68,7 +68,7 @@
             <div class="absolute inset-0 -z-10 bg-gradient-to-br from-ink/95 via-ink/75 to-jade/40"></div>
             <div class="mx-auto max-w-7xl px-6 pb-24 pt-20 sm:pt-28">
                 <span class="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-2 text-sm font-medium text-amber-200 backdrop-blur">
-                    <span class="h-2 w-2 rounded-full bg-amber-300"></span> 12 destinos · 6 países · un solo pasaporte
+                    <span class="h-2 w-2 rounded-full bg-amber-300"></span> 16 destinos · 7 países · un solo pasaporte
                 </span>
                 <h1 class="mt-7 max-w-3xl text-5xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl">
                     Tu próximo viaje<br>empieza <span class="text-amber-300">aquí.</span>
@@ -117,6 +117,7 @@
                 <button data-filtro="Costa Rica" class="filtro-btn rounded-full border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-jade hover:text-jade">Costa Rica</button>
                 <button data-filtro="Ecuador" class="filtro-btn rounded-full border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-jade hover:text-jade">Ecuador</button>
                 <button data-filtro="México" class="filtro-btn rounded-full border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-jade hover:text-jade">México</button>
+                <button data-filtro="Perú" class="filtro-btn rounded-full border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-jade hover:text-jade">Perú</button>
                 <button data-filtro="Nicaragua" class="filtro-btn rounded-full border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-jade hover:text-jade">Nicaragua</button>
             </div>
 
@@ -221,6 +222,20 @@
                     </div>
                 </a>
 
+                <!-- Torres del Paine -->
+                <a href="chile-torres-del-paine.html" data-pais="Chile" data-buscar="chile torres del paine patagonia montañas glaciar trekking"
+                   class="card group flex flex-col overflow-hidden rounded-[1.75rem] border border-slate-100 bg-white shadow-lg shadow-slate-900/5">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?auto=format&fit=crop&q=85&w=900" alt="Montañas y lagos de Torres del Paine en la Patagonia chilena" loading="lazy" class="img-zoom h-full w-full object-cover">
+                        <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-ink backdrop-blur">Chile 🇨🇱</span>
+                    </div>
+                    <div class="flex flex-1 flex-col p-6">
+                        <h3 class="text-2xl font-bold">Torres del Paine</h3>
+                        <p class="mt-2 flex-1 leading-relaxed text-slate-600">La majestad salvaje de la Patagonia: glaciares, cuernos y cielos infinitos.</p>
+                        <span class="mt-5 font-bold text-jade">Ver destino ↗</span>
+                    </div>
+                </a>
+
                 <!-- Manzanillo -->
                 <a href="costa_rica-manzanillo.html" data-pais="Costa Rica" data-buscar="costa rica manzanillo playa caribe limon snorkel"
                    class="card group flex flex-col overflow-hidden rounded-[1.75rem] border border-slate-100 bg-white shadow-lg shadow-slate-900/5">
@@ -277,8 +292,50 @@
                     </div>
                 </a>
 
+                <!-- Museo Nacional de Antropología -->
+                <a href="museo_antropologia_mexico.html" data-pais="México" data-buscar="mexico ciudad de mexico museo nacional antropologia arqueologia maya mexica"
+                   class="card group flex flex-col overflow-hidden rounded-[1.75rem] border border-slate-100 bg-white shadow-lg shadow-slate-900/5">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&q=85&w=900" alt="Arquitectura del Museo Nacional de Antropología de México" loading="lazy" class="img-zoom h-full w-full object-cover">
+                        <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-ink backdrop-blur">México 🇲🇽</span>
+                    </div>
+                    <div class="flex flex-1 flex-col p-6">
+                        <h3 class="text-2xl font-bold">Museo Nacional de Antropología</h3>
+                        <p class="mt-2 flex-1 leading-relaxed text-slate-600">Un viaje por el arte y la historia de las civilizaciones de México.</p>
+                        <span class="mt-5 font-bold text-jade">Ver destino ↗</span>
+                    </div>
+                </a>
+
+                <!-- Tacna -->
+                <a href="peru-tacna.html" data-pais="Perú" data-buscar="peru tacna sur andes frontera historia gastronomia"
+                   class="card group flex flex-col overflow-hidden rounded-[1.75rem] border border-slate-100 bg-white shadow-lg shadow-slate-900/5">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=85&w=900" alt="Paisaje andino del sur de Perú en Tacna" loading="lazy" class="img-zoom h-full w-full object-cover">
+                        <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-ink backdrop-blur">Perú 🇵🇪</span>
+                    </div>
+                    <div class="flex flex-1 flex-col p-6">
+                        <h3 class="text-2xl font-bold">Tacna</h3>
+                        <p class="mt-2 flex-1 leading-relaxed text-slate-600">El corazón del sur peruano: desierto, historia y una gastronomía con carácter.</p>
+                        <span class="mt-5 font-bold text-jade">Ver destino ↗</span>
+                    </div>
+                </a>
+
+                <!-- Ucayali -->
+                <a href="peru-ucayali.html" data-pais="Perú" data-buscar="peru ucayali selva central amazonia pucallpa rio aventura"
+                   class="card group flex flex-col overflow-hidden rounded-[1.75rem] border border-slate-100 bg-white shadow-lg shadow-slate-900/5">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&q=85&w=900" alt="Río y selva amazónica en la región Ucayali" loading="lazy" class="img-zoom h-full w-full object-cover">
+                        <span class="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-ink backdrop-blur">Perú 🇵🇪</span>
+                    </div>
+                    <div class="flex flex-1 flex-col p-6">
+                        <h3 class="text-2xl font-bold">Ucayali</h3>
+                        <p class="mt-2 flex-1 leading-relaxed text-slate-600">Selva central del Perú: ríos, biodiversidad y aventura amazónica.</p>
+                        <span class="mt-5 font-bold text-jade">Ver destino ↗</span>
+                    </div>
+                </a>
+
                 <!-- El Rama -->
-                <a href="index_el_rama_tourist_landing.html" data-pais="Nicaragua" data-buscar="nicaragua el rama caribe rio escondido siquia mico bluefields"
+                <a href="El-Rama-Cristian-Rodriguez.html" data-pais="Nicaragua" data-buscar="nicaragua el rama caribe rio escondido siquia mico bluefields"
                    class="card group flex flex-col overflow-hidden rounded-[1.75rem] border border-slate-100 bg-white shadow-lg shadow-slate-900/5">
                     <div class="relative h-56 overflow-hidden">
                         <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=85&w=900" alt="Río y selva en El Rama, Nicaragua" loading="lazy" class="img-zoom h-full w-full object-cover">
@@ -297,12 +354,13 @@
 
         <!-- Banda de países -->
         <section class="border-y border-slate-200 bg-white">
-            <div class="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-6 py-14 text-center sm:grid-cols-3 md:grid-cols-6">
+            <div class="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-6 py-14 text-center sm:grid-cols-4 md:grid-cols-7">
                 <div><p class="text-3xl font-extrabold text-ink">6</p><p class="mt-1 text-sm font-semibold text-slate-500">Bolivia 🇧🇴</p></div>
-                <div><p class="text-3xl font-extrabold text-ink">1</p><p class="mt-1 text-sm font-semibold text-slate-500">Chile 🇨🇱</p></div>
+                <div><p class="text-3xl font-extrabold text-ink">2</p><p class="mt-1 text-sm font-semibold text-slate-500">Chile 🇨🇱</p></div>
                 <div><p class="text-3xl font-extrabold text-ink">2</p><p class="mt-1 text-sm font-semibold text-slate-500">Costa Rica 🇨🇷</p></div>
                 <div><p class="text-3xl font-extrabold text-ink">1</p><p class="mt-1 text-sm font-semibold text-slate-500">Ecuador 🇪🇨</p></div>
-                <div><p class="text-3xl font-extrabold text-ink">1</p><p class="mt-1 text-sm font-semibold text-slate-500">México 🇲🇽</p></div>
+                <div><p class="text-3xl font-extrabold text-ink">2</p><p class="mt-1 text-sm font-semibold text-slate-500">México 🇲🇽</p></div>
+                <div><p class="text-3xl font-extrabold text-ink">2</p><p class="mt-1 text-sm font-semibold text-slate-500">Perú 🇵🇪</p></div>
                 <div><p class="text-3xl font-extrabold text-ink">1</p><p class="mt-1 text-sm font-semibold text-slate-500">Nicaragua 🇳🇮</p></div>
             </div>
         </section>
@@ -321,7 +379,7 @@
 
     <footer class="border-t border-slate-200 px-6 py-8 text-sm text-slate-500">
         <div class="mx-auto flex max-w-7xl flex-col justify-between gap-3 sm:flex-row">
-            <p>© 2026 Destinos Turísticos · Bolivia, Chile, Costa Rica, Ecuador, México y Nicaragua.</p>
+            <p>© 2026 Destinos Turísticos · Bolivia, Chile, Costa Rica, Ecuador, México, Perú y Nicaragua.</p>
             <a href="#inicio" class="font-semibold text-jade hover:text-copper">Volver arriba ↑</a>
         </div>
     </footer>
